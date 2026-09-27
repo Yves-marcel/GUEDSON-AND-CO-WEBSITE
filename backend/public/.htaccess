@@ -1,0 +1,13 @@
+# Seul dossier de backend/ servi par le web (endpoint contact.php).
+# Empêche la mise en cache de la réponse JSON par un proxy/CDN.
+<IfModule mod_headers.c>
+    Header set Cache-Control "no-store"
+</IfModule>
+
+# Filet de sécurité : si un jour un "Require all denied" est ajouté au niveau
+# backend/, on rouvre explicitement ce dossier-ci.
+<IfModule mod_authz_core.c>
+    <Files "contact.php">
+        Require all granted
+    </Files>
+</IfModule>

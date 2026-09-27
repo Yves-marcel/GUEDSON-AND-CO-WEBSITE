@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#071827"/><stop offset="1" stop-color="#0169db"/></linearGradient></defs>
+<rect width="1600" height="900" fill="url(#g)"/>
+<circle cx="1320" cy="160" r="220" fill="#f4b000" opacity=".13"/>
+<path d="M0 690 C300 580 520 760 820 660 S1300 550 1600 650 V900 H0Z" fill="#0b253a"/>
+<path d="M0 735 C300 640 500 790 840 700 S1320 600 1600 690 V900 H0Z" fill="#06111d"/>
+<g fill="#f4b000"><rect x="230" y="490" width="180" height="120" rx="5"/><rect x="420" y="460" width="180" height="150" rx="5"/><rect x="610" y="500" width="180" height="110" rx="5"/></g>
+<g stroke="#fff" stroke-width="12" fill="none" opacity=".8"><path d="M180 620 H900"/><path d="M930 620 L1170 540 H1410"/><path d="M1080 500 l180 0"/></g>
+<g fill="#fff"><circle cx="180" cy="620" r="16"/><circle cx="1410" cy="540" r="16"/></g>
+<text x="110" y="170" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#fff">GLOBAL LOGISTICS</text>
+<text x="110" y="230" font-family="Arial, sans-serif" font-size="26" fill="#f4b000">TRANSIT • FREIGHT • INTERNATIONAL TRADE</text>
+</svg>

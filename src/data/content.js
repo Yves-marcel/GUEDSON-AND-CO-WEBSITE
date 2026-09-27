@@ -1,0 +1,11 @@
+export const services=[
+{title:"Transit Door-to-Door",description:"Prise en charge complète de l'origine à la destination.",icon:"door"},
+{title:"Import & Export",description:"Solutions adaptées pour faciliter vos opérations commerciales.",icon:"exchange"},
+{title:"Dédouanement",description:"Gestion des formalités douanières pour véhicules et marchandises.",icon:"file"},
+{title:"Fret maritime & groupage",description:"Expéditions optimisées par voie maritime.",icon:"ship"},
+{title:"Fret aérien & groupage",description:"Solutions rapides pour vos livraisons accélérées.",icon:"plane"},
+{title:"Transport terrestre sous-régional",description:"Transport en Côte d'Ivoire et dans la sous-région.",icon:"truck"}];
+export const stats=[{value:"1990",label:"Depuis 1990 · Expérience",icon:"history"},{value:"17",label:"Agences en Côte d'Ivoire",icon:"pin"},{value:"210+",label:"Collaborateurs mobilisés",icon:"users"},{value:"6",label:"Continents connectés",icon:"globe"}];
+export const steps=[["Analyse de votre besoin","Écoute et compréhension de votre projet."],["Proposition de la solution adaptée","Offre sur mesure selon vos contraintes."],["Organisation du transport et formalités","Coordination des étapes et documents."],["Suivi de votre expédition","Transparence et reporting en temps réel."],["Livraison à destination","Réception en toute sécurité."]];
+export const advantages=[["Expertise","Connaissance approfondie du transit et du commerce international.","award"],["Réseau international","Des partenaires solides pour accompagner vos opérations.","network"],["Solutions sur mesure","Chaque besoin est analysé pour apporter une réponse adaptée.","tailor"],["Accompagnement","Un suivi et une relation de confiance à chaque étape.","handshake"]];
+export const articles=[["Chargement de 2 conteneurs de caoutchouc","Expédition vers les États-Unis : nos clients nous font confiance."],["Expédition de 6 rafts de sauvetage","Destination Aberdeen, Royaume-Uni, via fret aérien."],["Nouvelle liaison maritime Abidjan – Le Havre","Renforcement de notre réseau et de nos connexions européennes."]];

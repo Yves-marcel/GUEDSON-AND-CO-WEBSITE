@@ -1,0 +1,29 @@
+# Ce .htaccess protège les fichiers sensibles de backend/ même quand tout le
+# dossier est déposé sous www/ (le seul point d'entrée web est public/contact.php).
+#
+# On ne fait PAS un "Require all denied" global ici : sur certains hébergements
+# il n'est pas correctement ré-ouvert par public/.htaccess, ce qui rend l'API
+# inaccessible (403). On bloque donc uniquement ce qui doit l'être.
+
+# 1. Tout fichier commençant par un point : .env, .htaccess, .gitignore…
+#    (FilesMatch s'applique aussi aux sous-dossiers)
+<FilesMatch "^\.">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+# 2. La base SQLite et les journaux éventuels (doublon de data/.htaccess).
+<FilesMatch "\.(sqlite|sqlite-journal|sqlite-wal|sqlite-shm)$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+    </IfModule>
+</FilesMatch>

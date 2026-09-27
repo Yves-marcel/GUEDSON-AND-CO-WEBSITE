@@ -1,0 +1,1 @@
+export default function Button({children,href="#",variant="primary",className=""}){return <a href={href} className={`btn btn-${variant} ${className}`}>{children}</a>}

@@ -1,0 +1,1 @@
+import {FaWhatsapp} from "react-icons/fa";export default function WhatsAppButton(){return <a className="whatsapp" href="https://wa.me/2250799506041" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><FaWhatsapp/></a>}

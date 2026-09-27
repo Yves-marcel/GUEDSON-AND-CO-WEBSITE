@@ -1,0 +1,2 @@
+import Button from "../common/Button.jsx";import Container from "../common/Container.jsx";
+export default function CTA(){return <section className="cta"><Container><div className="cta-content"><h2>Un projet d'importation ou d'expédition ?</h2><p>Confiez votre logistique à une équipe capable de vous accompagner de l'origine jusqu'à la destination.</p><Button href="#contact">Nous contacter</Button></div></Container></section>}
